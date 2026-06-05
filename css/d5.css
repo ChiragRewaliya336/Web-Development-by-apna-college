@@ -1,5 +1,31 @@
-p{
-    color: blue;
+/* p{
+    color: white;
+    background-color: black;
+}
+button{
+    background-color: blue;
+    color: white;
+} */
+
+h1 {
+    /* New property is introduced called right = end &  left =start*/
+    text-align: right;
+    border: solid;
+    width: 50%;
+    font-weight: 800;
+    text-decoration: wavy overline;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+    text-decoration: pink line-through;
+    letter-spacing: 50px;
+}
 
+p {
+    text-align: justify;
+    text-decoration: double underline;
+    line-height: 2.7;
+    font-size: 15px;
+}
