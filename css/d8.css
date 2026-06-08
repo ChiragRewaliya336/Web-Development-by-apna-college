@@ -1,0 +1,83 @@
+/* #first {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.749); 
+}
+
+#opacity {
+    background-color: chartreuse;
+    opacity: 0.5;
+}
+#transaction{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(210, 105, 30);
+    margin: 20px;
+    margin-left: 0px;
+    transition: 2s 1s;
+}
+#transaction:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+#timing{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+#timing:hover{
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+
+/* section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: cadetblue;
+    border: 2px solid  black ;
+    margin: 10px auto;
+}
+:nth-of-type(2n){
+    background-color: coral;
+}
+div:nth-of-type(3n){
+    background-color: rgb(121, 68, 49);
+}
+
+#one{
+    transform: rotate(45deg);
+}
+#two{
+     transform: scale(0.5, 2);   
+     /* transform: scaleX(); used for x axis only  */
+
+/* #three{
+    transform: translateX(100px);
+#four{
+    transform: skew(30deg);
+}
+#five{
+    transform: rotate(30deg) translateY(100px);
+}  */
+
+
+#shadow{
+    width: 350px;
+    height: 200px;
+    background-color: cadetblue;
+    box-shadow: 2px 2px 10px black;
+    text-align: center;
+    color: rgb(1, 1, 12);
+    border-radius: 4px;
+    margin: 10px auto;
+    background-image: url("img1.jpg");
+    background-size: contain;
+}
