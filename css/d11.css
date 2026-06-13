@@ -1,0 +1,105 @@
+/* .conatiner{
+    width: 600px;
+    height: 300px;
+    background-color:yellow;
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid #282727;
+    text-align: center;
+} */
+/* .one{
+    background-color: greenyellow;
+    border: 2px solid #282727;
+    text-align: center;
+    grid-column: 1/ 1;   
+    justify-content: center;
+}
+.two{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid #282727;
+    text-align: center;
+    grid-row: 1/ span 3;
+} */
+/* .box {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border: 2px solid black;
+    animation-name: colan;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes colan {
+    0% {
+        background-color: pink;
+    }
+
+    50% {
+        background-color: violet;
+    }
+
+    80% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: burlywood;
+    }
+}
+
+h1 {
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+
+@media(max-width:100px) {
+    h1 {
+        background-color: red;
+        color: rgb(183, 10, 10);
+    }
+}
+
+@media(max-width:300px)and (max-width: 800px) {
+    h1 {
+        background-color: blueviolet;
+    }
+} */
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.one {
+    background-color: antiquewhite;
+    position: relative;
+    z-index: 1;
+}
+
+.two {
+    background-color: blue;
+    position: relative;
+    bottom: 50px;
+    z-index: -2;
+}
