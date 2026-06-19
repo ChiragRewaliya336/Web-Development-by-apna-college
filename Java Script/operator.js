@@ -11,3 +11,20 @@ console.log(a**3); */ // Power
 // NaN =Not a number 0/0 = Nan;
 /*console.log(typeof NaN);
 console.log( NaN +1); */
+
+// a =a+1 //a+=1; Assignment Operator
+// console.log(a);
+
+//Uranary Operator:
+// let c=a + ++b;
+// let d = a +b++;
+// console.log(c);
+// console.log(d);
+
+//String Indices:
+// let name="Chirag Rewaliya"
+// console.log(name);
+// console.log(name[0]);
+// console.log(name[100]);
+// console.log(name.length);
+
